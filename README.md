@@ -20,3 +20,16 @@ PID_FILE = /var/run/ocserv.pid
 
 ## 注意！
 本脚本仅支持Debian和Ubuntu系统！
+
+## 其他
+如遇到ping通但无法上网的情况，请尝试如下操作
+```
+添加iptables转发
+iptables -A FORWARD -d 10.250.250.0/24 -j ACCEPT
+然后打开
+/etc/sysctl.conf
+修改
+net.ipv4.ip_forward = 1
+修改好后运行
+sysctl -p /etc/sysctl.conf
+```
