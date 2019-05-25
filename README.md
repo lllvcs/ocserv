@@ -8,14 +8,14 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/lllvcs/ocserv/m
 ```
 ### 相关配置
 ```
-sh_ver="1.0.6"
-file="/usr/local/sbin/ocserv"
-conf_file="/etc/ocserv"
-conf="/etc/ocserv/ocserv.conf"
-passwd_file="/etc/ocserv/ocpasswd"
-log_file="/tmp/ocserv.log"
-ocserv_ver="0.12.3"
-PID_FILE="/var/run/ocserv.pid"
+sh_ver = 1.0.6
+file =/usr/local/sbin/ocserv
+conf_file = /etc/ocserv
+conf = /etc/ocserv/ocserv.conf
+passwd_file = /etc/ocserv/ocpasswd
+log_file = /tmp/ocserv.log
+ocserv_ver = 0.12.3
+PID_FILE = /var/run/ocserv.pid
 ```
 
 ## 注意！
